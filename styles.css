@@ -1,3 +1,11 @@
+:root {
+    --blue-slate-color: #4f6d7a;
+    --pale-sky-color: #c0d6df;
+    --alice-blue-color: #dbe9ee;
+    --smart-blue-color: #4a6fa5;
+    --baltic-blue-color: #166088;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 25px;
@@ -6,6 +14,7 @@ body {
 .header {
     font-size: 32px;
     font-weight: bold;  
+    color: var(--baltic-blue-color);
 }
 
 .rule-box {
@@ -18,6 +27,7 @@ body {
 .rule-box .section-heading {
     font-size: 20px;
     font-weight: bold;
+    color: var(--smart-blue-color);
 }
 
 /* Color Section */
@@ -44,23 +54,23 @@ body {
 }
 
 .blue-slate {
-    background-color: #4f6d7a;
+    background-color: var(--blue-slate-color);
 }
 
 .pale-sky {
-    background-color: #c0d6df;
+    background-color: var(--pale-sky-color);
 }
 
 .alice-blue {
-    background-color: #dbe9ee;
+    background-color: var(--alice-blue-color);
 }
 
 .smart-blue {
-    background-color: #4a6fa5;
+    background-color: var(--smart-blue-color);
 }
 
 .baltic-blue {
-    background-color: #166088;
+    background-color: var(--baltic-blue-color);
 }
 
 .light {
