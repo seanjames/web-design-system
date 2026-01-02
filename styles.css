@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 25px;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;  
+}
+
+.rule-box {
+    border-radius: 6px;
+    border: 1px solid #CACACA;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.rule-box .section-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Color Section */
+
+.swatch {
+    display: inline-block;
+    border-radius: 6px;
+    border: 0 solid black;
+    padding: 20px 10px;
+    margin: 20px 20px 10px 0;
+    text-align: center;
+    vertical-align: middle; 
+    width: 100px;
+    font-size: smaller;
+}
+
+.swatch-name {
+    font-weight: bold;
+}
+
+.swatch-hex {
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.blue-slate {
+    background-color: #4f6d7a;
+}
+
+.pale-sky {
+    background-color: #c0d6df;
+}
+
+.alice-blue {
+    background-color: #dbe9ee;
+}
+
+.smart-blue {
+    background-color: #4a6fa5;
+}
+
+.baltic-blue {
+    background-color: #166088;
+}
+
+.light {
+    color: white;
+}
+
+.dark {
+    color: black;
+}
+
+/* Fonts Section */
+.font-block {
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-google-sans {
+    font-family: "Google Sans", sans-serif;
+}
+
+.font-atkinson-mono {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+}
+
+.font-heading {
+    text-decoration: underline;
+}
+
+.font-normal {
+    font-style: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italics {
+    font-style: italic;
+}
+
+/* Text Styles */
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Google Sans", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+li, p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
